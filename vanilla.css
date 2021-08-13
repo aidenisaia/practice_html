@@ -17,6 +17,7 @@ body {
 main {
   line-height: 1.5;
   padding: 4em 1em;
+  background-color: ghostwhite;
 }
 
 h2 {
@@ -51,4 +52,23 @@ header h1 {
   color: white;
   font-size: 2.5em;
   font-weight: 300;
+}
+
+header a {
+  border: 1px solid #e81c4f;
+  border-radius: 2em;
+  color: white;
+  font-size: 0.6em;
+  letter-spacing: 0.2em;
+  padding: 1em 2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition-property: color, background;
+  transition-duration: 200ms;
+}
+
+
+header a:hover {
+  background: #e81c4f;
+  color: white;
 }
